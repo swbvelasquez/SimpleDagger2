@@ -12,6 +12,7 @@ import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Segunda forma de injeccion, no se debe usar la tercera forma en las activities o fragments
     @Inject
     Car car2;
     @Override
